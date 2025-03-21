@@ -284,10 +284,10 @@ float4 rgbToHpluv(float x, float y, float z, float a) {return rgbToHpluv( float4
 float4   luvToRgb(float x, float y, float z, float a) {return   luvToRgb( float4(x,y,z,a) );}
 
 /*
-END HSLUV-GLSL
+END HSLUV-HLSL
 */
 
-// Обертки для Shader Graph
+// Unity Shader Graph (single precision only)
 
 
 // XYZ <-> RGB
